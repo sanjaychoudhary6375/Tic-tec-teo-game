@@ -1,0 +1,155 @@
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color: #025260;
+ }
+
+ main {
+     width: 380px;
+     height: 500px;
+
+     margin: auto;
+ }
+
+ main h1 {
+     text-align: center;
+     color: #fff;
+     text-transform: uppercase;
+     text-shadow: 2px 2px 4px blue;
+ }
+
+ .container {
+     width: 100%;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .game {
+     padding: 10px;
+     justify-content: center;
+     align-items: center;
+     border-radius: 10px;
+ }
+
+ .game .box {
+     border-radius: 10px;
+     gap: 10px;
+     width: 100px;
+     background-color: #fff;
+     height: 100px;
+     cursor: pointer;
+     font-size: 26px;
+     color: #025260;
+     border: none;
+     margin: 6px;
+ }
+
+ .game .box:hover {
+
+     background-color: crimson;
+     color: white;
+ }
+
+ .magContainer {
+     text-align: center;
+     display: none;
+
+ }
+
+ .magContainer p {
+     color: wheat;
+     font-size: 25px;
+     text-transform: capitalize;
+ }
+
+
+ .newBtn {
+     margin-left: 110px;
+     border: none;
+     padding: 10px 20px;
+     border-radius: 4px;
+     background-color: black;
+     color: white;
+     font-size: 20px;
+ }
+
+ .newBtn:hover {
+     background-color: #fff;
+     color: black;
+     cursor: pointer;
+
+ }
+
+ .result {
+     border: none;
+     padding: 10px 20px;
+     border-radius: 4px;
+     background-color: black;
+     color: white;
+     font-size: 20px;
+ }
+
+ .result:hover {
+     background-color: #fff;
+     color: black;
+     cursor: pointer;
+
+ }
+
+
+
+
+ section {
+     width: 100%;
+     height: 100vh;
+     background-image: url("images/product4.jpg");
+     background-size: 100% auto;
+     /* Optional: Adjust to your design needs */
+     background-position: center;
+     /* Optional: Adjust to your design needs */
+     background-attachment: fixed;
+     display: grid;
+     place-items: center;
+ }
+
+ h3 {
+     color: white;
+     text-align: center;
+ }
+
+ .section1 {
+     width: 100%;
+     height: 100vh;
+     background-image: url("images/product1.jpg");
+     background-size: 100% auto;
+     /* Optional: Adjust to your design needs */
+     background-position: center;
+     /* Optional: Adjust to your design needs */
+     background-attachment: fixed;
+ }
+
+ .section2 {
+     width: 100%;
+     height: 100vh;
+     background-image: url("images/product2.jpg");
+     background-size: 100% auto;
+     /* Optional: Adjust to your design needs */
+     background-position: center;
+     /* Optional: Adjust to your design needs */
+     background-attachment: fixed;
+ }
+
+ .section3 {
+     width: 100%;
+     height: 100vh;
+     background-image: url("images/product6.jpg");
+     background-size: 100% auto;
+     /* Optional: Adjust to your design needs */
+     background-position: center;
+     /* Optional: Adjust to your design needs */
+     background-attachment: fixed;
+ }
